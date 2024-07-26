@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Timer</title>
+</head>
+
+<body>
+    <h1>Countdown Timer</h1>
+    <div class="clockcontainer" id="clockdiv">
+        <div>
+
+            <!-- Show no.of hours -->
+            <span class="hours" id="hour">0</span>
+            <div class="smalltext">Hours</div>
+        </div>
+        <div>
+
+            <!-- Show no. of minutes -->
+            <span class="minutes" id="minute">0</span>
+            <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+
+            <!-- Show seconds -->
+            <span class="seconds" id="second">0</span>
+            <div class="smalltext">Seconds</div>
+        </div>
+    </div>
+    <p id="demo"></p>
+    <div class="inputContainer clockcontainer">
+        <div class="inputdiv">
+            <div>
+
+                <input type="number" id="inputminute" min="0" value="00"></input>
+                <div class="smalltext">Minutes</div>
+            </div>
+            <div>:</div>
+            <div>
+
+                <input type="number" id="inputsecond" min="0" value="00"></input>
+                <div class="smalltext">Seconds</div>
+            </div>
+        </div>
+    </div>
+    <div class="controlContainer">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseResumeTimer()">Pause/Resume</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

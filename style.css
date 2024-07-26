@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background: #cad2c5;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+/* Styling for heading */
+h1 {
+    color: #354f52;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+}
+
+.clockcontainer {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+}
+
+#clockdiv {
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    width: 84px;
+    background: #84a98c;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: #52796f;
+    display: inline-block;
+}
+
+/* Style for visible text */
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+#demo{
+    height: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.inputdiv {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    background: #84a98c;
+}
+
+.inputdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.inputdiv div>input {
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.controlContainer{
+    margin: 20px 10px;
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 4px;
+    background-color: #84a98c;
+    color: #fff;
+    border: 0;
+}
